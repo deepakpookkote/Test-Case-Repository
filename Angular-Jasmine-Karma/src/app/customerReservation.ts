@@ -13,4 +13,12 @@ export class CustomerReservation {
 
         return roomReserved;
     }
+
+    registerCustomer() {
+        return ++this.customerCount;
+    }
+
+    unRegisterCustomer() {
+        return --this.customerCount;
+    }
 }
