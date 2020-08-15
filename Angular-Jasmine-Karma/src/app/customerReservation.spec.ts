@@ -22,8 +22,6 @@ describe('Room Reservation', () => {
     it('should register customer/ Increment count by 1', () => {
 
         const customerCount = customerReserve.registerCustomer();
-        console.log(customerReserve.customerCount);
-
         expect(customerCount).toEqual(11);
     });
 
