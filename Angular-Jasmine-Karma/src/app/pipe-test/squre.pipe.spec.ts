@@ -3,7 +3,7 @@ import { async } from 'rxjs/internal/scheduler/async';
 import { TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 
-fdescribe('SqurePipe', () => {
+describe('SqurePipe', () => {
 
   let pipe: SqurePipe;
 

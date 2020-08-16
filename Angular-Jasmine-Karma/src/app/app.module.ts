@@ -10,6 +10,7 @@ import { DirectiveTestComponent } from './directive-test/directive-test.componen
 import { HelloDirective } from './directive-test/hello.directive';
 import { PipeTestComponent } from './pipe-test/pipe-test.component';
 import { SqurePipe } from './pipe-test/squre.pipe';
+import { SpyDemoComponent } from './spy-demo/spy-demo.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SqurePipe } from './pipe-test/squre.pipe';
     DirectiveTestComponent,
     HelloDirective,
     PipeTestComponent,
-    SqurePipe
+    SqurePipe,
+    SpyDemoComponent
   ],
   imports: [
     BrowserModule,
